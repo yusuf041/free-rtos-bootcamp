@@ -1,0 +1,29 @@
+# --- STM32CubeIDE derleme çıktıları (kaynaktan yeniden üretilir) ---
+firmware/**/Debug/
+firmware/**/Release/
+*.o
+*.d
+*.su
+*.elf
+*.map
+*.list
+*.bin
+*.hex
+
+# --- IDE / çalışma alanı ---
+.metadata/
+.vscode/
+*.bak
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+
+# --- İşletim sistemi ---
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Excel geçici dosyaları ---
+~$*
